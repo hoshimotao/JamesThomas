@@ -1,0 +1,111 @@
+body {
+  font-family:'Raleway';
+  background-color: black;
+
+  color: peachpuff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title h1{
+  margin: 20% 0 5%;
+  line-height: 30%;
+}
+
+
+h1 {
+  font-size: 4em;
+  font-weight: 'regular';
+  color: peachpuff;
+  text-align: center;
+  
+}
+
+h2{
+  text-align: center;
+  font-family: 'Raleway';
+  font-weight: lighter;
+  margin-bottom: 20%;
+  margin-top: 10%;
+  border-bottom: 2px solid peachpuff;
+}
+
+h3 {
+  font-size: 2em;
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+.aboutMe {
+  width: 60%;
+  margin-bottom: 5%;
+  border-bottom: 1px solid peachpuff;
+}
+
+.skills {
+  text-align: center;
+  background-image: linear-gradient(
+    rgba(3, 174, 148, 0.68),
+    rgba(50, 18, 235, 0.4)
+    );
+    color: peachpuff;
+    width: 98vw;
+    height: 70%;
+  padding-bottom: 4%;
+  
+}
+
+.skills p {
+  display: flex;
+  padding-bottom: 20px;
+  padding-top: -20px;
+  justify-content: space-around;
+  font-size: 3em;
+  border-bottom: 1px solid peachpuff;
+}
+
+.skills img {  
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 150px;
+  width: auto;
+}
+
+.socialMedia {
+  margin-top: 5%;
+  text-align: center;
+  width: 40%;
+  margin-bottom: 5%;
+  height: 35%;  
+}
+
+.socialMedia a {
+  text-decoration: none;
+  color: peachpuff;
+}
+
+.socialMedia a:hover {
+  color: rgb(0, 255, 213);
+}
+
+.socialMedia {
+  width: 60%;
+  height: 30%;
+}
+
+.socialMedia p span {
+  display: flex;
+  padding-bottom: 20px;
+  padding-top: -20px;
+  justify-content: center;
+  font-size: 3em;
+  border-bottom: 1px solid peachpuff;
+}
+
+.socialMedia img {
+  height: 4vh;
+  width: auto;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
